@@ -1,7 +1,18 @@
 class Main {
   public static void main(String[] args) {
-    int myAge = 16;
-    
-    System.out.println("I am " + myAge + " years old ");
+    int myAge = 15;
+    int myBirthday= 927;
+    int todaysDate= 923;
+
+    if(myBirthday == todaysDate)
+    {
+      System.out.print("I am ");
+      System.out.print(1 + myAge);
+    }
+    else
+    {
+      System.out.print("I am " + myAge);
+    }
+      System.out.print(" years old");
   }
 }
